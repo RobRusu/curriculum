@@ -1,5 +1,7 @@
 ### Introduction
 
+This is a new feature! It is great!
+
 You've written a lot of code up to this point, and you've hopefully moved on from just trying to write code that works, to now considering code readability and maintainability. You might spend some time considering how you can create the necessary abstractions so that your code stays easy to work with even as the requirements for it grows.
 
 Code readability and maintainability are super important. After all, you will likely spend as much, if not more, time reading code than writing it. You need to make sure new features are integrated with ease.
@@ -50,10 +52,10 @@ Let's go back to our `oddNumbersLessThanTen function`. How many steps does our a
 
 1. We have a loop. For each iteration of the loop, we do the following:
 
-    1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
-    1. We then check if currentNumber is odd. That is 1 step.
-    1. If it is then we output it to the terminal. That's 1 step every 2 iterations.
-    1. We increase `currentNumber` by 1. That is 1 step.
+   1. Compare `currentNumber` to see if it is less than 10. That is 1 step.
+   1. We then check if currentNumber is odd. That is 1 step.
+   1. If it is then we output it to the terminal. That's 1 step every 2 iterations.
+   1. We increase `currentNumber` by 1. That is 1 step.
 
 1. To exit the loop, we need to compare `currentNumber` one last time to see that it is not less than ten any more. That is one last step.
 
@@ -221,11 +223,11 @@ You want to avoid this if at all possible, otherwise you won't be processing muc
 
 #### O(N!) - Factorial complexity
 
-A factorial is the product of the sequence of *n* integers. The factorial of 4(4!) is 4 * 3 * 2 * 1.
+A factorial is the product of the sequence of _n_ integers. The factorial of 4(4!) is 4 _ 3 _ 2 \* 1.
 
 You will come across Factorial Complexity if you ever need to calculate permutations or combinations. If you have an array and have to work out all the combinations you can make from the array, that is a Factorial complexity. It's manageable for a small number of items, but the leap with each new item in a dataset can be huge.
 
-The factorial of 3 is 6 (3 * 2 * 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
+The factorial of 3 is 6 (3 _ 2 _ 1). The factorial of 4 is 24. The factorial of 10? 3,628,800. So you can see how quickly things can get out of hand.
 
 ### Alternatives to Big O
 
